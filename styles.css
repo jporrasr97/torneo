@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+}
+
+label, input, button {
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+#player-list {
+    margin: 20px 0;
+    text-align: left;
+}
+
+.player {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 0;
+}
+
+.delete-btn {
+    background-color: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.delete-btn:hover {
+    background-color: darkred;
+}
+
+.brackets {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.bracket-level {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.match {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+    text-align: center;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+}
+
+.match p {
+    margin: 5px 0;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}

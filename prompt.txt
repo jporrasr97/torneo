@@ -1,0 +1,11 @@
+Podrias ayudarme a generar la siguiente app, necesito se pueda usar al menos en un entorno web o en una aplicacion android pero empezemos por hacerla web, quiero poder generar torneos, necesito que se pueda ingresar el numero de jugadores, si es impar el numerod e jugadores entonces 1 jugador se unira aleatoriamente a otro como equipo, por ejemplo si es 3 el numero de jugadores y los jugadores son 1 2 3 entonces aleatoriamente podria ser 1,2 vs 3 o 1,3,vs y asi dependiendo del numero de jugadores ingresados se generrar cuadros para ingresar los jugadores, necesito que la informacion de los jugadores se guarden, y que sea elimnatoria directa, osea que debe dar la opcion de seleccionar el jugador ganador y luego esto genere los cuadros de los siguientes jugadores, que sea visualmente agradable y funcinal hasta llegar a la final
+
+torneo_app/
+│
+├── app.py
+├── templates/
+│   ├── index.html
+│   ├── tournament.html
+├── static/
+│   ├── styles.css
+│   └── script.js

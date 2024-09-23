@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Torneo Eliminatorio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Generador de Torneos Eliminatorios</h1>
+        <div id="form-section">
+            <label for="new-player">Agregar nuevo jugador:</label>
+            <input type="text" id="new-player" placeholder="Nombre del jugador">
+            <button id="add-player">Agregar Jugador</button>
+            <div id="player-list"></div>
+            <button id="start-tournament">Iniciar Torneo</button>
+        </div>
+
+        <div id="tournament-section" style="display: none;">
+            <h2>Emparejamientos del Torneo</h2>
+            <div id="brackets" class="brackets"></div>
+            <button id="next-round" style="display: none;">Siguiente Ronda</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
